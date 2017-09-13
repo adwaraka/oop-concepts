@@ -24,7 +24,7 @@ class Vehicle(object):
     @abstractmethod
     def vehicle_type(self):
         pass
-		
+
 class Car(Vehicle):
     base_sale_price = 8000
     wheels = 4
